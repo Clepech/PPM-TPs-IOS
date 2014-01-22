@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D67F5F63185F548D00B137BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5F62185F548D00B137BE /* Foundation.framework */; };
+		D67F5F65185F548D00B137BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5F64185F548D00B137BE /* CoreGraphics.framework */; };
+		D67F5F67185F548D00B137BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5F66185F548D00B137BE /* UIKit.framework */; };
+		D67F5F6D185F548D00B137BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D67F5F6B185F548D00B137BE /* InfoPlist.strings */; };
+		D67F5F6F185F548D00B137BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5F6E185F548D00B137BE /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67F5F73185F548D00B137BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5F72185F548D00B137BE /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67F5F76185F548D00B137BE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67F5F74185F548D00B137BE /* Main_iPhone.storyboard */; };
+		D67F5F79185F548D00B137BE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67F5F77185F548D00B137BE /* Main_iPad.storyboard */; };
+		D67F5F7E185F548D00B137BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67F5F7D185F548D00B137BE /* Images.xcassets */; };
+		D67F5F85185F548D00B137BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5F84185F548D00B137BE /* XCTest.framework */; };
+		D67F5F86185F548D00B137BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5F62185F548D00B137BE /* Foundation.framework */; };
+		D67F5F87185F548D00B137BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5F66185F548D00B137BE /* UIKit.framework */; };
+		D67F5F8F185F548D00B137BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D67F5F8D185F548D00B137BE /* InfoPlist.strings */; };
+		D67F5F91185F548D00B137BE /* TaperJouerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5F90185F548D00B137BE /* TaperJouerTests.m */; };
+		D67F5F9C185F551200B137BE /* HistoricTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5F9B185F551200B137BE /* HistoricTableVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67F5F9E185F555F00B137BE /* images in Resources */ = {isa = PBXBuildFile; fileRef = D67F5F9D185F555F00B137BE /* images */; };
+		D67F5FA1185F58B800B137BE /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5FA0185F58B800B137BE /* PlayerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67F5FA7185F5BC900B137BE /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5FA6185F5BC900B137BE /* PlayerViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67F5FAA185F687600B137BE /* MyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5FA9185F687600B137BE /* MyTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D67F5F88185F548D00B137BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67F5F57185F548D00B137BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67F5F5E185F548D00B137BE;
+			remoteInfo = TaperJouer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D67F5F5F185F548D00B137BE /* TaperJouer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaperJouer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67F5F62185F548D00B137BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D67F5F64185F548D00B137BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D67F5F66185F548D00B137BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D67F5F6A185F548D00B137BE /* TaperJouer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaperJouer-Info.plist"; sourceTree = "<group>"; };
+		D67F5F6C185F548D00B137BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D67F5F6E185F548D00B137BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D67F5F70185F548D00B137BE /* TaperJouer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaperJouer-Prefix.pch"; sourceTree = "<group>"; };
+		D67F5F71185F548D00B137BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D67F5F72185F548D00B137BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D67F5F75185F548D00B137BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D67F5F78185F548D00B137BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D67F5F7D185F548D00B137BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D67F5F83185F548D00B137BE /* TaperJouerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaperJouerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67F5F84185F548D00B137BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D67F5F8C185F548D00B137BE /* TaperJouerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaperJouerTests-Info.plist"; sourceTree = "<group>"; };
+		D67F5F8E185F548D00B137BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D67F5F90185F548D00B137BE /* TaperJouerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaperJouerTests.m; sourceTree = "<group>"; };
+		D67F5F9A185F551200B137BE /* HistoricTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricTableVC.h; sourceTree = "<group>"; };
+		D67F5F9B185F551200B137BE /* HistoricTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricTableVC.m; sourceTree = "<group>"; };
+		D67F5F9D185F555F00B137BE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		D67F5F9F185F58B800B137BE /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		D67F5FA0185F58B800B137BE /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		D67F5FA5185F5BC900B137BE /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		D67F5FA6185F5BC900B137BE /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		D67F5FA8185F687600B137BE /* MyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTools.h; sourceTree = "<group>"; };
+		D67F5FA9185F687600B137BE /* MyTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67F5F5C185F548D00B137BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5F65185F548D00B137BE /* CoreGraphics.framework in Frameworks */,
+				D67F5F67185F548D00B137BE /* UIKit.framework in Frameworks */,
+				D67F5F63185F548D00B137BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67F5F80185F548D00B137BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5F85185F548D00B137BE /* XCTest.framework in Frameworks */,
+				D67F5F87185F548D00B137BE /* UIKit.framework in Frameworks */,
+				D67F5F86185F548D00B137BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D67F5F56185F548D00B137BE = {
+			isa = PBXGroup;
+			children = (
+				D67F5F9D185F555F00B137BE /* images */,
+				D67F5F68185F548D00B137BE /* TaperJouer */,
+				D67F5F8A185F548D00B137BE /* TaperJouerTests */,
+				D67F5F61185F548D00B137BE /* Frameworks */,
+				D67F5F60185F548D00B137BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D67F5F60185F548D00B137BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5F5F185F548D00B137BE /* TaperJouer.app */,
+				D67F5F83185F548D00B137BE /* TaperJouerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67F5F61185F548D00B137BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5F62185F548D00B137BE /* Foundation.framework */,
+				D67F5F64185F548D00B137BE /* CoreGraphics.framework */,
+				D67F5F66185F548D00B137BE /* UIKit.framework */,
+				D67F5F84185F548D00B137BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67F5F68185F548D00B137BE /* TaperJouer */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5F7D185F548D00B137BE /* Images.xcassets */,
+				D67F5F74185F548D00B137BE /* Main_iPhone.storyboard */,
+				D67F5F77185F548D00B137BE /* Main_iPad.storyboard */,
+				D67F5F69185F548D00B137BE /* Supporting Files */,
+				D67F5F72185F548D00B137BE /* AppDelegate.m */,
+				D67F5F71185F548D00B137BE /* AppDelegate.h */,
+				D67F5F9B185F551200B137BE /* HistoricTableVC.m */,
+				D67F5F9A185F551200B137BE /* HistoricTableVC.h */,
+				D67F5FA0185F58B800B137BE /* PlayerView.m */,
+				D67F5F9F185F58B800B137BE /* PlayerView.h */,
+				D67F5FA6185F5BC900B137BE /* PlayerViewController.m */,
+				D67F5FA5185F5BC900B137BE /* PlayerViewController.h */,
+				D67F5FA9185F687600B137BE /* MyTools.m */,
+				D67F5FA8185F687600B137BE /* MyTools.h */,
+			);
+			path = TaperJouer;
+			sourceTree = "<group>";
+		};
+		D67F5F69185F548D00B137BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5F6A185F548D00B137BE /* TaperJouer-Info.plist */,
+				D67F5F6B185F548D00B137BE /* InfoPlist.strings */,
+				D67F5F6E185F548D00B137BE /* main.m */,
+				D67F5F70185F548D00B137BE /* TaperJouer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D67F5F8A185F548D00B137BE /* TaperJouerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5F90185F548D00B137BE /* TaperJouerTests.m */,
+				D67F5F8B185F548D00B137BE /* Supporting Files */,
+			);
+			path = TaperJouerTests;
+			sourceTree = "<group>";
+		};
+		D67F5F8B185F548D00B137BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5F8C185F548D00B137BE /* TaperJouerTests-Info.plist */,
+				D67F5F8D185F548D00B137BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67F5F5E185F548D00B137BE /* TaperJouer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67F5F94185F548D00B137BE /* Build configuration list for PBXNativeTarget "TaperJouer" */;
+			buildPhases = (
+				D67F5F5B185F548D00B137BE /* Sources */,
+				D67F5F5C185F548D00B137BE /* Frameworks */,
+				D67F5F5D185F548D00B137BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaperJouer;
+			productName = TaperJouer;
+			productReference = D67F5F5F185F548D00B137BE /* TaperJouer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D67F5F82185F548D00B137BE /* TaperJouerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67F5F97185F548D00B137BE /* Build configuration list for PBXNativeTarget "TaperJouerTests" */;
+			buildPhases = (
+				D67F5F7F185F548D00B137BE /* Sources */,
+				D67F5F80185F548D00B137BE /* Frameworks */,
+				D67F5F81185F548D00B137BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67F5F89185F548D00B137BE /* PBXTargetDependency */,
+			);
+			name = TaperJouerTests;
+			productName = TaperJouerTests;
+			productReference = D67F5F83185F548D00B137BE /* TaperJouerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67F5F57185F548D00B137BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = m2sar;
+				TargetAttributes = {
+					D67F5F82185F548D00B137BE = {
+						TestTargetID = D67F5F5E185F548D00B137BE;
+					};
+				};
+			};
+			buildConfigurationList = D67F5F5A185F548D00B137BE /* Build configuration list for PBXProject "TaperJouer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D67F5F56185F548D00B137BE;
+			productRefGroup = D67F5F60185F548D00B137BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67F5F5E185F548D00B137BE /* TaperJouer */,
+				D67F5F82185F548D00B137BE /* TaperJouerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D67F5F5D185F548D00B137BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5F9E185F555F00B137BE /* images in Resources */,
+				D67F5F79185F548D00B137BE /* Main_iPad.storyboard in Resources */,
+				D67F5F7E185F548D00B137BE /* Images.xcassets in Resources */,
+				D67F5F76185F548D00B137BE /* Main_iPhone.storyboard in Resources */,
+				D67F5F6D185F548D00B137BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67F5F81185F548D00B137BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5F8F185F548D00B137BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67F5F5B185F548D00B137BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5F73185F548D00B137BE /* AppDelegate.m in Sources */,
+				D67F5F9C185F551200B137BE /* HistoricTableVC.m in Sources */,
+				D67F5F6F185F548D00B137BE /* main.m in Sources */,
+				D67F5FAA185F687600B137BE /* MyTools.m in Sources */,
+				D67F5FA1185F58B800B137BE /* PlayerView.m in Sources */,
+				D67F5FA7185F5BC900B137BE /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67F5F7F185F548D00B137BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5F91185F548D00B137BE /* TaperJouerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67F5F89185F548D00B137BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67F5F5E185F548D00B137BE /* TaperJouer */;
+			targetProxy = D67F5F88185F548D00B137BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D67F5F6B185F548D00B137BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67F5F6C185F548D00B137BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D67F5F74185F548D00B137BE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67F5F75185F548D00B137BE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D67F5F77185F548D00B137BE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67F5F78185F548D00B137BE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D67F5F8D185F548D00B137BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67F5F8E185F548D00B137BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D67F5F92185F548D00B137BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D67F5F93185F548D00B137BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67F5F95185F548D00B137BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				INFOPLIST_FILE = "TaperJouer/TaperJouer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D67F5F96185F548D00B137BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				INFOPLIST_FILE = "TaperJouer/TaperJouer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D67F5F98185F548D00B137BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaperJouer.app/TaperJouer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaperJouerTests/TaperJouerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D67F5F99185F548D00B137BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaperJouer.app/TaperJouer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				INFOPLIST_FILE = "TaperJouerTests/TaperJouerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67F5F5A185F548D00B137BE /* Build configuration list for PBXProject "TaperJouer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67F5F92185F548D00B137BE /* Debug */,
+				D67F5F93185F548D00B137BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67F5F94185F548D00B137BE /* Build configuration list for PBXNativeTarget "TaperJouer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67F5F95185F548D00B137BE /* Debug */,
+				D67F5F96185F548D00B137BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67F5F97185F548D00B137BE /* Build configuration list for PBXNativeTarget "TaperJouerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67F5F98185F548D00B137BE /* Debug */,
+				D67F5F99185F548D00B137BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D67F5F57185F548D00B137BE /* Project object */;
+}

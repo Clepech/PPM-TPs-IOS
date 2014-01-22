@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YRK-y9-O4u"/>
+                        <viewControllerLayoutGuide type="bottom" id="tyk-Om-13G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="FM8-VD-gEb">
+                                <rect key="frame" x="20" y="20" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="plusMoinsAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="kj9-HS-wpv"/>
+                                </connections>
+                            </stepper>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8xg-84-2cN">
+                                <rect key="frame" x="699" y="20" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="geekAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="PIv-nT-xJY"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geek Mode" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUL-mG-PFr">
+                                <rect key="frame" x="398" y="25" width="293" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="wEB-rU-GbL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dizaines" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdb-Yd-ARj">
+                                <rect key="frame" x="350" y="54" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="Efd-wX-zbr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unités" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kS-RY-5c9">
+                                <rect key="frame" x="360" y="128" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="D7F-sn-4BX">
+                                <rect key="frame" x="20" y="92" width="728" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="0"/>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                </segments>
+                                <connections>
+                                    <action selector="dizAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="wBm-QQ-1hO"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="r9R-HG-7j2">
+                                <rect key="frame" x="20" y="157" width="728" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="0"/>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                </segments>
+                                <connections>
+                                    <action selector="unitAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="t1h-Il-QI9"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14K-Oh-Umz">
+                                <rect key="frame" x="379" y="193" width="10" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUj-kA-fIV">
+                                <rect key="frame" x="364" y="263" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ljD-j2-As0"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Geg-I4-nKn">
+                                <rect key="frame" x="18" y="222" width="732" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="slideAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZCf-Rc-ZXD"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Geg-I4-nKn" firstAttribute="leading" secondItem="r9R-HG-7j2" secondAttribute="leading" id="1Sg-XH-YEC"/>
+                            <constraint firstItem="Geg-I4-nKn" firstAttribute="top" secondItem="14K-Oh-Umz" secondAttribute="bottom" constant="8" symbolic="YES" id="1Um-iZ-f2j"/>
+                            <constraint firstItem="FM8-VD-gEb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="2z0-eZ-bfF"/>
+                            <constraint firstItem="r9R-HG-7j2" firstAttribute="top" secondItem="4kS-RY-5c9" secondAttribute="bottom" constant="8" symbolic="YES" id="2zl-li-TFG"/>
+                            <constraint firstItem="D7F-sn-4BX" firstAttribute="leading" secondItem="r9R-HG-7j2" secondAttribute="leading" id="32Q-zG-Kma"/>
+                            <constraint firstItem="Geg-I4-nKn" firstAttribute="centerX" secondItem="aUj-kA-fIV" secondAttribute="centerX" id="5YI-Uw-Uux"/>
+                            <constraint firstItem="8xg-84-2cN" firstAttribute="leading" secondItem="tUL-mG-PFr" secondAttribute="trailing" constant="8" symbolic="YES" id="70C-RB-EFc"/>
+                            <constraint firstItem="aUj-kA-fIV" firstAttribute="top" secondItem="Geg-I4-nKn" secondAttribute="bottom" constant="8" symbolic="YES" id="BF6-yM-3l9"/>
+                            <constraint firstItem="r9R-HG-7j2" firstAttribute="trailing" secondItem="Geg-I4-nKn" secondAttribute="trailing" id="DP4-6n-suz"/>
+                            <constraint firstAttribute="trailing" secondItem="8xg-84-2cN" secondAttribute="trailing" constant="20" symbolic="YES" id="EB7-p6-tMO"/>
+                            <constraint firstItem="14K-Oh-Umz" firstAttribute="top" secondItem="r9R-HG-7j2" secondAttribute="bottom" constant="8" symbolic="YES" id="GL1-BQ-fSg"/>
+                            <constraint firstItem="D7F-sn-4BX" firstAttribute="trailing" secondItem="8xg-84-2cN" secondAttribute="trailing" id="Lf8-vw-sVt"/>
+                            <constraint firstItem="4kS-RY-5c9" firstAttribute="top" secondItem="D7F-sn-4BX" secondAttribute="bottom" constant="8" symbolic="YES" id="MDD-No-v8p"/>
+                            <constraint firstItem="FM8-VD-gEb" firstAttribute="leading" secondItem="D7F-sn-4BX" secondAttribute="leading" id="V2G-dQ-Sfl"/>
+                            <constraint firstItem="4kS-RY-5c9" firstAttribute="centerX" secondItem="D7F-sn-4BX" secondAttribute="centerX" id="VHX-ti-zTL"/>
+                            <constraint firstItem="14K-Oh-Umz" firstAttribute="centerX" secondItem="r9R-HG-7j2" secondAttribute="centerX" id="aDU-4P-poO"/>
+                            <constraint firstItem="tUL-mG-PFr" firstAttribute="centerY" secondItem="8xg-84-2cN" secondAttribute="centerY" id="iaH-g6-FJ3"/>
+                            <constraint firstItem="D7F-sn-4BX" firstAttribute="top" secondItem="Gdb-Yd-ARj" secondAttribute="bottom" constant="8" symbolic="YES" id="jIq-FE-W0J"/>
+                            <constraint firstItem="8xg-84-2cN" firstAttribute="top" secondItem="FM8-VD-gEb" secondAttribute="top" id="jaq-lG-xjT"/>
+                            <constraint firstItem="D7F-sn-4BX" firstAttribute="top" secondItem="8xg-84-2cN" secondAttribute="bottom" constant="41" id="kAj-6P-sPW"/>
+                            <constraint firstItem="Gdb-Yd-ARj" firstAttribute="top" secondItem="tUL-mG-PFr" secondAttribute="bottom" constant="8" symbolic="YES" id="vnT-EV-HmB"/>
+                            <constraint firstItem="r9R-HG-7j2" firstAttribute="trailing" secondItem="D7F-sn-4BX" secondAttribute="trailing" id="wEC-zG-b0V"/>
+                            <constraint firstItem="FM8-VD-gEb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="xIx-ts-3XX"/>
+                            <constraint firstItem="Gdb-Yd-ARj" firstAttribute="centerX" secondItem="D7F-sn-4BX" secondAttribute="centerX" id="yPx-P7-doD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dizOut" destination="D7F-sn-4BX" id="ggK-70-NNf"/>
+                        <outlet property="geekOut" destination="8xg-84-2cN" id="DxG-wV-ykD"/>
+                        <outlet property="plusMoinsOut" destination="FM8-VD-gEb" id="0T0-nd-NAU"/>
+                        <outlet property="resOut" destination="14K-Oh-Umz" id="fc8-Jt-Lxe"/>
+                        <outlet property="slideOut" destination="Geg-I4-nKn" id="Kwv-SF-Tbq"/>
+                        <outlet property="unitOut" destination="r9R-HG-7j2" id="kaI-dz-BxJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61EC5D2185B2E08001072A1 /* SelectSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61EC5D1185B2E08001072A1 /* SelectSideView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D66DBB6B185B5CEA00FCAAD1 /* PlaneteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DBB6A185B5CEA00FCAAD1 /* PlaneteViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D66DBB6E185B5F8E00FCAAD1 /* PlaneteView.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DBB6D185B5F8E00FCAAD1 /* PlaneteView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D691FBC6185616DE00B8451A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D691FBC5185616DE00B8451A /* Foundation.framework */; };
+		D691FBC8185616DE00B8451A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D691FBC7185616DE00B8451A /* CoreGraphics.framework */; };
+		D691FBCA185616DE00B8451A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D691FBC9185616DE00B8451A /* UIKit.framework */; };
+		D691FBD0185616DE00B8451A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D691FBCE185616DE00B8451A /* InfoPlist.strings */; };
+		D691FBD2185616DE00B8451A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D691FBD1185616DE00B8451A /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D691FBD6185616DE00B8451A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D691FBD5185616DE00B8451A /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D691FBD9185616DE00B8451A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D691FBD7185616DE00B8451A /* Main_iPhone.storyboard */; };
+		D691FBDC185616DE00B8451A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D691FBDA185616DE00B8451A /* Main_iPad.storyboard */; };
+		D691FBE1185616DE00B8451A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D691FBE0185616DE00B8451A /* Images.xcassets */; };
+		D691FBE8185616DE00B8451A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D691FBE7185616DE00B8451A /* XCTest.framework */; };
+		D691FBE9185616DE00B8451A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D691FBC5185616DE00B8451A /* Foundation.framework */; };
+		D691FBEA185616DE00B8451A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D691FBC9185616DE00B8451A /* UIKit.framework */; };
+		D691FBF2185616DE00B8451A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D691FBF0185616DE00B8451A /* InfoPlist.strings */; };
+		D691FBF4185616DE00B8451A /* ChateletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D691FBF3185616DE00B8451A /* ChateletTests.m */; };
+		D691FC211856175900B8451A /* back-segmented.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FBFE1856175900B8451A /* back-segmented.png */; };
+		D691FC221856175900B8451A /* chatelet-x120.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FBFF1856175900B8451A /* chatelet-x120.png */; };
+		D691FC231856175900B8451A /* chatelet-x152.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC001856175900B8451A /* chatelet-x152.png */; };
+		D691FC241856175900B8451A /* chatelet-x58.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC011856175900B8451A /* chatelet-x58.png */; };
+		D691FC251856175900B8451A /* chatelet-x76.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC021856175900B8451A /* chatelet-x76.png */; };
+		D691FC261856175900B8451A /* chatelet-x80.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC031856175900B8451A /* chatelet-x80.png */; };
+		D691FC271856175900B8451A /* div-segmented.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC041856175900B8451A /* div-segmented.png */; };
+		D691FC281856175900B8451A /* fond-1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D691FC051856175900B8451A /* fond-1024x1024.jpg */; };
+		D691FC291856175900B8451A /* fond-1136x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D691FC061856175900B8451A /* fond-1136x1136.jpg */; };
+		D691FC2A1856175900B8451A /* fond-2048x2048.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D691FC071856175900B8451A /* fond-2048x2048.jpg */; };
+		D691FC2B1856175900B8451A /* fond-960x960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D691FC081856175900B8451A /* fond-960x960.jpg */; };
+		D691FC2C1856175900B8451A /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC091856175900B8451A /* gear.png */; };
+		D691FC2D1856175900B8451A /* leia.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC0A1856175900B8451A /* leia.png */; };
+		D691FC2E1856175900B8451A /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC0B1856175900B8451A /* map.png */; };
+		D691FC2F1856175900B8451A /* planete-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC0C1856175900B8451A /* planete-0.png */; };
+		D691FC301856175900B8451A /* planete-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC0D1856175900B8451A /* planete-1.png */; };
+		D691FC311856175900B8451A /* planete-10.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC0E1856175900B8451A /* planete-10.png */; };
+		D691FC321856175900B8451A /* planete-11.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC0F1856175900B8451A /* planete-11.png */; };
+		D691FC331856175900B8451A /* planete-12.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC101856175900B8451A /* planete-12.png */; };
+		D691FC341856175900B8451A /* planete-13.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC111856175900B8451A /* planete-13.png */; };
+		D691FC351856175900B8451A /* planete-14.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC121856175900B8451A /* planete-14.png */; };
+		D691FC361856175900B8451A /* planete-15.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC131856175900B8451A /* planete-15.png */; };
+		D691FC371856175900B8451A /* planete-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC141856175900B8451A /* planete-16.png */; };
+		D691FC381856175900B8451A /* planete-17.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC151856175900B8451A /* planete-17.png */; };
+		D691FC391856175900B8451A /* planete-18.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC161856175900B8451A /* planete-18.png */; };
+		D691FC3A1856175900B8451A /* planete-19.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC171856175900B8451A /* planete-19.png */; };
+		D691FC3B1856175900B8451A /* planete-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC181856175900B8451A /* planete-2.png */; };
+		D691FC3C1856175900B8451A /* planete-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC191856175900B8451A /* planete-3.png */; };
+		D691FC3D1856175900B8451A /* planete-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC1A1856175900B8451A /* planete-4.png */; };
+		D691FC3E1856175900B8451A /* planete-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC1B1856175900B8451A /* planete-5.png */; };
+		D691FC3F1856175900B8451A /* planete-6.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC1C1856175900B8451A /* planete-6.png */; };
+		D691FC401856175900B8451A /* planete-7.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC1D1856175900B8451A /* planete-7.png */; };
+		D691FC411856175900B8451A /* planete-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC1E1856175900B8451A /* planete-8.png */; };
+		D691FC421856175900B8451A /* planete-9.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC1F1856175900B8451A /* planete-9.png */; };
+		D691FC431856175900B8451A /* vador.png in Resources */ = {isa = PBXBuildFile; fileRef = D691FC201856175900B8451A /* vador.png */; };
+		D691FC46185619B100B8451A /* SelectSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D691FC45185619B100B8451A /* SelectSideViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D691FC49185619DD00B8451A /* StationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D691FC48185619DD00B8451A /* StationTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D691FC4C18561FB500B8451A /* MyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D691FC4B18561FB500B8451A /* MyTools.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D691FC52185626BA00B8451A /* StationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D691FC51185626BA00B8451A /* StationCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D691FBEB185616DE00B8451A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D691FBBA185616DE00B8451A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D691FBC1185616DE00B8451A;
+			remoteInfo = Chatelet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D61EC5D0185B2E08001072A1 /* SelectSideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSideView.h; sourceTree = "<group>"; };
+		D61EC5D1185B2E08001072A1 /* SelectSideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSideView.m; sourceTree = "<group>"; };
+		D66DBB69185B5CEA00FCAAD1 /* PlaneteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneteViewController.h; sourceTree = "<group>"; };
+		D66DBB6A185B5CEA00FCAAD1 /* PlaneteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneteViewController.m; sourceTree = "<group>"; };
+		D66DBB6C185B5F8E00FCAAD1 /* PlaneteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneteView.h; sourceTree = "<group>"; };
+		D66DBB6D185B5F8E00FCAAD1 /* PlaneteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneteView.m; sourceTree = "<group>"; };
+		D691FBC2185616DE00B8451A /* Chatelet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatelet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D691FBC5185616DE00B8451A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D691FBC7185616DE00B8451A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D691FBC9185616DE00B8451A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D691FBCD185616DE00B8451A /* Chatelet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chatelet-Info.plist"; sourceTree = "<group>"; };
+		D691FBCF185616DE00B8451A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D691FBD1185616DE00B8451A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D691FBD3185616DE00B8451A /* Chatelet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chatelet-Prefix.pch"; sourceTree = "<group>"; };
+		D691FBD4185616DE00B8451A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D691FBD5185616DE00B8451A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D691FBD8185616DE00B8451A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D691FBDB185616DE00B8451A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D691FBE0185616DE00B8451A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D691FBE6185616DE00B8451A /* ChateletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChateletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D691FBE7185616DE00B8451A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D691FBEF185616DE00B8451A /* ChateletTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChateletTests-Info.plist"; sourceTree = "<group>"; };
+		D691FBF1185616DE00B8451A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D691FBF3185616DE00B8451A /* ChateletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChateletTests.m; sourceTree = "<group>"; };
+		D691FBFE1856175900B8451A /* back-segmented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-segmented.png"; sourceTree = "<group>"; };
+		D691FBFF1856175900B8451A /* chatelet-x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatelet-x120.png"; sourceTree = "<group>"; };
+		D691FC001856175900B8451A /* chatelet-x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatelet-x152.png"; sourceTree = "<group>"; };
+		D691FC011856175900B8451A /* chatelet-x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatelet-x58.png"; sourceTree = "<group>"; };
+		D691FC021856175900B8451A /* chatelet-x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatelet-x76.png"; sourceTree = "<group>"; };
+		D691FC031856175900B8451A /* chatelet-x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatelet-x80.png"; sourceTree = "<group>"; };
+		D691FC041856175900B8451A /* div-segmented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "div-segmented.png"; sourceTree = "<group>"; };
+		D691FC051856175900B8451A /* fond-1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-1024x1024.jpg"; sourceTree = "<group>"; };
+		D691FC061856175900B8451A /* fond-1136x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-1136x1136.jpg"; sourceTree = "<group>"; };
+		D691FC071856175900B8451A /* fond-2048x2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-2048x2048.jpg"; sourceTree = "<group>"; };
+		D691FC081856175900B8451A /* fond-960x960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-960x960.jpg"; sourceTree = "<group>"; };
+		D691FC091856175900B8451A /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		D691FC0A1856175900B8451A /* leia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leia.png; sourceTree = "<group>"; };
+		D691FC0B1856175900B8451A /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		D691FC0C1856175900B8451A /* planete-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-0.png"; sourceTree = "<group>"; };
+		D691FC0D1856175900B8451A /* planete-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-1.png"; sourceTree = "<group>"; };
+		D691FC0E1856175900B8451A /* planete-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-10.png"; sourceTree = "<group>"; };
+		D691FC0F1856175900B8451A /* planete-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-11.png"; sourceTree = "<group>"; };
+		D691FC101856175900B8451A /* planete-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-12.png"; sourceTree = "<group>"; };
+		D691FC111856175900B8451A /* planete-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-13.png"; sourceTree = "<group>"; };
+		D691FC121856175900B8451A /* planete-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-14.png"; sourceTree = "<group>"; };
+		D691FC131856175900B8451A /* planete-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-15.png"; sourceTree = "<group>"; };
+		D691FC141856175900B8451A /* planete-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-16.png"; sourceTree = "<group>"; };
+		D691FC151856175900B8451A /* planete-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-17.png"; sourceTree = "<group>"; };
+		D691FC161856175900B8451A /* planete-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-18.png"; sourceTree = "<group>"; };
+		D691FC171856175900B8451A /* planete-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-19.png"; sourceTree = "<group>"; };
+		D691FC181856175900B8451A /* planete-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-2.png"; sourceTree = "<group>"; };
+		D691FC191856175900B8451A /* planete-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-3.png"; sourceTree = "<group>"; };
+		D691FC1A1856175900B8451A /* planete-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-4.png"; sourceTree = "<group>"; };
+		D691FC1B1856175900B8451A /* planete-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-5.png"; sourceTree = "<group>"; };
+		D691FC1C1856175900B8451A /* planete-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-6.png"; sourceTree = "<group>"; };
+		D691FC1D1856175900B8451A /* planete-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-7.png"; sourceTree = "<group>"; };
+		D691FC1E1856175900B8451A /* planete-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-8.png"; sourceTree = "<group>"; };
+		D691FC1F1856175900B8451A /* planete-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planete-9.png"; sourceTree = "<group>"; };
+		D691FC201856175900B8451A /* vador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vador.png; sourceTree = "<group>"; };
+		D691FC44185619B100B8451A /* SelectSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSideViewController.h; sourceTree = "<group>"; };
+		D691FC45185619B100B8451A /* SelectSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSideViewController.m; sourceTree = "<group>"; };
+		D691FC47185619DD00B8451A /* StationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationTableViewController.h; sourceTree = "<group>"; };
+		D691FC48185619DD00B8451A /* StationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationTableViewController.m; sourceTree = "<group>"; };
+		D691FC4A18561FB500B8451A /* MyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTools.h; sourceTree = "<group>"; };
+		D691FC4B18561FB500B8451A /* MyTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTools.m; sourceTree = "<group>"; };
+		D691FC50185626BA00B8451A /* StationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationCell.h; sourceTree = "<group>"; };
+		D691FC51185626BA00B8451A /* StationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D691FBBF185616DE00B8451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691FBC8185616DE00B8451A /* CoreGraphics.framework in Frameworks */,
+				D691FBCA185616DE00B8451A /* UIKit.framework in Frameworks */,
+				D691FBC6185616DE00B8451A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691FBE3185616DE00B8451A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691FBE8185616DE00B8451A /* XCTest.framework in Frameworks */,
+				D691FBEA185616DE00B8451A /* UIKit.framework in Frameworks */,
+				D691FBE9185616DE00B8451A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D691FBB9185616DE00B8451A = {
+			isa = PBXGroup;
+			children = (
+				D691FBFD1856175900B8451A /* images */,
+				D691FBCB185616DE00B8451A /* Chatelet */,
+				D691FBED185616DE00B8451A /* ChateletTests */,
+				D691FBC4185616DE00B8451A /* Frameworks */,
+				D691FBC3185616DE00B8451A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D691FBC3185616DE00B8451A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D691FBC2185616DE00B8451A /* Chatelet.app */,
+				D691FBE6185616DE00B8451A /* ChateletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D691FBC4185616DE00B8451A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D691FBC5185616DE00B8451A /* Foundation.framework */,
+				D691FBC7185616DE00B8451A /* CoreGraphics.framework */,
+				D691FBC9185616DE00B8451A /* UIKit.framework */,
+				D691FBE7185616DE00B8451A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D691FBCB185616DE00B8451A /* Chatelet */ = {
+			isa = PBXGroup;
+			children = (
+				D691FBCC185616DE00B8451A /* Supporting Files */,
+				D691FBD4185616DE00B8451A /* AppDelegate.h */,
+				D691FBD5185616DE00B8451A /* AppDelegate.m */,
+				D691FBD7185616DE00B8451A /* Main_iPhone.storyboard */,
+				D691FBDA185616DE00B8451A /* Main_iPad.storyboard */,
+				D691FBE0185616DE00B8451A /* Images.xcassets */,
+				D691FC44185619B100B8451A /* SelectSideViewController.h */,
+				D691FC45185619B100B8451A /* SelectSideViewController.m */,
+				D61EC5D0185B2E08001072A1 /* SelectSideView.h */,
+				D61EC5D1185B2E08001072A1 /* SelectSideView.m */,
+				D691FC47185619DD00B8451A /* StationTableViewController.h */,
+				D691FC48185619DD00B8451A /* StationTableViewController.m */,
+				D691FC4A18561FB500B8451A /* MyTools.h */,
+				D691FC4B18561FB500B8451A /* MyTools.m */,
+				D691FC50185626BA00B8451A /* StationCell.h */,
+				D691FC51185626BA00B8451A /* StationCell.m */,
+				D66DBB69185B5CEA00FCAAD1 /* PlaneteViewController.h */,
+				D66DBB6A185B5CEA00FCAAD1 /* PlaneteViewController.m */,
+				D66DBB6C185B5F8E00FCAAD1 /* PlaneteView.h */,
+				D66DBB6D185B5F8E00FCAAD1 /* PlaneteView.m */,
+			);
+			path = Chatelet;
+			sourceTree = "<group>";
+		};
+		D691FBCC185616DE00B8451A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D691FBCD185616DE00B8451A /* Chatelet-Info.plist */,
+				D691FBCE185616DE00B8451A /* InfoPlist.strings */,
+				D691FBD1185616DE00B8451A /* main.m */,
+				D691FBD3185616DE00B8451A /* Chatelet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D691FBED185616DE00B8451A /* ChateletTests */ = {
+			isa = PBXGroup;
+			children = (
+				D691FBF3185616DE00B8451A /* ChateletTests.m */,
+				D691FBEE185616DE00B8451A /* Supporting Files */,
+			);
+			path = ChateletTests;
+			sourceTree = "<group>";
+		};
+		D691FBEE185616DE00B8451A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D691FBEF185616DE00B8451A /* ChateletTests-Info.plist */,
+				D691FBF0185616DE00B8451A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D691FBFD1856175900B8451A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D691FBFE1856175900B8451A /* back-segmented.png */,
+				D691FBFF1856175900B8451A /* chatelet-x120.png */,
+				D691FC001856175900B8451A /* chatelet-x152.png */,
+				D691FC011856175900B8451A /* chatelet-x58.png */,
+				D691FC021856175900B8451A /* chatelet-x76.png */,
+				D691FC031856175900B8451A /* chatelet-x80.png */,
+				D691FC041856175900B8451A /* div-segmented.png */,
+				D691FC051856175900B8451A /* fond-1024x1024.jpg */,
+				D691FC061856175900B8451A /* fond-1136x1136.jpg */,
+				D691FC071856175900B8451A /* fond-2048x2048.jpg */,
+				D691FC081856175900B8451A /* fond-960x960.jpg */,
+				D691FC091856175900B8451A /* gear.png */,
+				D691FC0A1856175900B8451A /* leia.png */,
+				D691FC0B1856175900B8451A /* map.png */,
+				D691FC0C1856175900B8451A /* planete-0.png */,
+				D691FC0D1856175900B8451A /* planete-1.png */,
+				D691FC0E1856175900B8451A /* planete-10.png */,
+				D691FC0F1856175900B8451A /* planete-11.png */,
+				D691FC101856175900B8451A /* planete-12.png */,
+				D691FC111856175900B8451A /* planete-13.png */,
+				D691FC121856175900B8451A /* planete-14.png */,
+				D691FC131856175900B8451A /* planete-15.png */,
+				D691FC141856175900B8451A /* planete-16.png */,
+				D691FC151856175900B8451A /* planete-17.png */,
+				D691FC161856175900B8451A /* planete-18.png */,
+				D691FC171856175900B8451A /* planete-19.png */,
+				D691FC181856175900B8451A /* planete-2.png */,
+				D691FC191856175900B8451A /* planete-3.png */,
+				D691FC1A1856175900B8451A /* planete-4.png */,
+				D691FC1B1856175900B8451A /* planete-5.png */,
+				D691FC1C1856175900B8451A /* planete-6.png */,
+				D691FC1D1856175900B8451A /* planete-7.png */,
+				D691FC1E1856175900B8451A /* planete-8.png */,
+				D691FC1F1856175900B8451A /* planete-9.png */,
+				D691FC201856175900B8451A /* vador.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D691FBC1185616DE00B8451A /* Chatelet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D691FBF7185616DE00B8451A /* Build configuration list for PBXNativeTarget "Chatelet" */;
+			buildPhases = (
+				D691FBBE185616DE00B8451A /* Sources */,
+				D691FBBF185616DE00B8451A /* Frameworks */,
+				D691FBC0185616DE00B8451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatelet;
+			productName = Chatelet;
+			productReference = D691FBC2185616DE00B8451A /* Chatelet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D691FBE5185616DE00B8451A /* ChateletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D691FBFA185616DE00B8451A /* Build configuration list for PBXNativeTarget "ChateletTests" */;
+			buildPhases = (
+				D691FBE2185616DE00B8451A /* Sources */,
+				D691FBE3185616DE00B8451A /* Frameworks */,
+				D691FBE4185616DE00B8451A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D691FBEC185616DE00B8451A /* PBXTargetDependency */,
+			);
+			name = ChateletTests;
+			productName = ChateletTests;
+			productReference = D691FBE6185616DE00B8451A /* ChateletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D691FBBA185616DE00B8451A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = m2sar;
+				TargetAttributes = {
+					D691FBE5185616DE00B8451A = {
+						TestTargetID = D691FBC1185616DE00B8451A;
+					};
+				};
+			};
+			buildConfigurationList = D691FBBD185616DE00B8451A /* Build configuration list for PBXProject "Chatelet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D691FBB9185616DE00B8451A;
+			productRefGroup = D691FBC3185616DE00B8451A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D691FBC1185616DE00B8451A /* Chatelet */,
+				D691FBE5185616DE00B8451A /* ChateletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D691FBC0185616DE00B8451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691FC2E1856175900B8451A /* map.png in Resources */,
+				D691FC3A1856175900B8451A /* planete-19.png in Resources */,
+				D691FC351856175900B8451A /* planete-14.png in Resources */,
+				D691FBDC185616DE00B8451A /* Main_iPad.storyboard in Resources */,
+				D691FC3B1856175900B8451A /* planete-2.png in Resources */,
+				D691FC2D1856175900B8451A /* leia.png in Resources */,
+				D691FC231856175900B8451A /* chatelet-x152.png in Resources */,
+				D691FC251856175900B8451A /* chatelet-x76.png in Resources */,
+				D691FC281856175900B8451A /* fond-1024x1024.jpg in Resources */,
+				D691FC401856175900B8451A /* planete-7.png in Resources */,
+				D691FC3C1856175900B8451A /* planete-3.png in Resources */,
+				D691FC211856175900B8451A /* back-segmented.png in Resources */,
+				D691FC321856175900B8451A /* planete-11.png in Resources */,
+				D691FC2B1856175900B8451A /* fond-960x960.jpg in Resources */,
+				D691FC221856175900B8451A /* chatelet-x120.png in Resources */,
+				D691FC2F1856175900B8451A /* planete-0.png in Resources */,
+				D691FC3D1856175900B8451A /* planete-4.png in Resources */,
+				D691FC291856175900B8451A /* fond-1136x1136.jpg in Resources */,
+				D691FBE1185616DE00B8451A /* Images.xcassets in Resources */,
+				D691FC261856175900B8451A /* chatelet-x80.png in Resources */,
+				D691FC2C1856175900B8451A /* gear.png in Resources */,
+				D691FC3F1856175900B8451A /* planete-6.png in Resources */,
+				D691FC371856175900B8451A /* planete-16.png in Resources */,
+				D691FC2A1856175900B8451A /* fond-2048x2048.jpg in Resources */,
+				D691FC301856175900B8451A /* planete-1.png in Resources */,
+				D691FC411856175900B8451A /* planete-8.png in Resources */,
+				D691FC381856175900B8451A /* planete-17.png in Resources */,
+				D691FC271856175900B8451A /* div-segmented.png in Resources */,
+				D691FBD9185616DE00B8451A /* Main_iPhone.storyboard in Resources */,
+				D691FC341856175900B8451A /* planete-13.png in Resources */,
+				D691FC3E1856175900B8451A /* planete-5.png in Resources */,
+				D691FC431856175900B8451A /* vador.png in Resources */,
+				D691FC391856175900B8451A /* planete-18.png in Resources */,
+				D691FC331856175900B8451A /* planete-12.png in Resources */,
+				D691FBD0185616DE00B8451A /* InfoPlist.strings in Resources */,
+				D691FC361856175900B8451A /* planete-15.png in Resources */,
+				D691FC421856175900B8451A /* planete-9.png in Resources */,
+				D691FC311856175900B8451A /* planete-10.png in Resources */,
+				D691FC241856175900B8451A /* chatelet-x58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691FBE4185616DE00B8451A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691FBF2185616DE00B8451A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D691FBBE185616DE00B8451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691FC46185619B100B8451A /* SelectSideViewController.m in Sources */,
+				D691FBD6185616DE00B8451A /* AppDelegate.m in Sources */,
+				D66DBB6B185B5CEA00FCAAD1 /* PlaneteViewController.m in Sources */,
+				D61EC5D2185B2E08001072A1 /* SelectSideView.m in Sources */,
+				D691FC4C18561FB500B8451A /* MyTools.m in Sources */,
+				D66DBB6E185B5F8E00FCAAD1 /* PlaneteView.m in Sources */,
+				D691FBD2185616DE00B8451A /* main.m in Sources */,
+				D691FC52185626BA00B8451A /* StationCell.m in Sources */,
+				D691FC49185619DD00B8451A /* StationTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691FBE2185616DE00B8451A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691FBF4185616DE00B8451A /* ChateletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D691FBEC185616DE00B8451A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D691FBC1185616DE00B8451A /* Chatelet */;
+			targetProxy = D691FBEB185616DE00B8451A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D691FBCE185616DE00B8451A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D691FBCF185616DE00B8451A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D691FBD7185616DE00B8451A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D691FBD8185616DE00B8451A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D691FBDA185616DE00B8451A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D691FBDB185616DE00B8451A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D691FBF0185616DE00B8451A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D691FBF1185616DE00B8451A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D691FBF5185616DE00B8451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D691FBF6185616DE00B8451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D691FBF8185616DE00B8451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chatelet/Chatelet-Prefix.pch";
+				INFOPLIST_FILE = "Chatelet/Chatelet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D691FBF9185616DE00B8451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chatelet/Chatelet-Prefix.pch";
+				INFOPLIST_FILE = "Chatelet/Chatelet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D691FBFB185616DE00B8451A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chatelet.app/Chatelet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chatelet/Chatelet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChateletTests/ChateletTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D691FBFC185616DE00B8451A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chatelet.app/Chatelet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chatelet/Chatelet-Prefix.pch";
+				INFOPLIST_FILE = "ChateletTests/ChateletTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D691FBBD185616DE00B8451A /* Build configuration list for PBXProject "Chatelet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D691FBF5185616DE00B8451A /* Debug */,
+				D691FBF6185616DE00B8451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D691FBF7185616DE00B8451A /* Build configuration list for PBXNativeTarget "Chatelet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D691FBF8185616DE00B8451A /* Debug */,
+				D691FBF9185616DE00B8451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D691FBFA185616DE00B8451A /* Build configuration list for PBXNativeTarget "ChateletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D691FBFB185616DE00B8451A /* Debug */,
+				D691FBFC185616DE00B8451A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D691FBBA185616DE00B8451A /* Project object */;
+}
