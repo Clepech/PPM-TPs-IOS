@@ -1,0 +1,32 @@
+body {
+	font-family:helvetica;
+	font-size: 12px;
+	color: #000000;
+}
+th {
+	font-family:helvetica;
+	font-size: 12px;
+	color: #000000;
+}
+td {
+	font-family:helvetica;
+	font-size: 12px;
+	color: #000000;
+	border-width: 1px;
+	border-style: solid;
+}
+p {
+	text-align: justify;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #003399;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #003399;
+}
+

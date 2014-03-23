@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C6A178E188349BF00FE1ACA /* doc.html in Resources */ = {isa = PBXBuildFile; fileRef = 7C6A178C188349BF00FE1ACA /* doc.html */; };
+		7C6A178F188349BF00FE1ACA /* docstyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 7C6A178D188349BF00FE1ACA /* docstyle.css */; };
+		7C6BF49A18814513008A00A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6BF49918814513008A00A8 /* Foundation.framework */; };
+		7C6BF49C18814513008A00A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6BF49B18814513008A00A8 /* CoreGraphics.framework */; };
+		7C6BF49E18814513008A00A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6BF49D18814513008A00A8 /* UIKit.framework */; };
+		7C6BF4A418814513008A00A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4A218814513008A00A8 /* InfoPlist.strings */; };
+		7C6BF4A618814513008A00A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF4A518814513008A00A8 /* main.m */; };
+		7C6BF4AA18814513008A00A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF4A918814513008A00A8 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C6BF4AC18814513008A00A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4AB18814513008A00A8 /* Images.xcassets */; };
+		7C6BF4B318814513008A00A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6BF4B218814513008A00A8 /* XCTest.framework */; };
+		7C6BF4B418814513008A00A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6BF49918814513008A00A8 /* Foundation.framework */; };
+		7C6BF4B518814513008A00A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6BF49D18814513008A00A8 /* UIKit.framework */; };
+		7C6BF4BD18814513008A00A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4BB18814513008A00A8 /* InfoPlist.strings */; };
+		7C6BF4BF18814513008A00A8 /* MasterMindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF4BE18814513008A00A8 /* MasterMindTests.m */; };
+		7C6BF4CD188146E3008A00A8 /* MindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF4CC188146E3008A00A8 /* MindViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C6BF4D218814DF9008A00A8 /* icone-jouer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4D118814DF9008A00A8 /* icone-jouer.png */; };
+		7C6BF4D61881523C008A00A8 /* icone-p+h.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4D51881523C008A00A8 /* icone-p+h.png */; };
+		7C6BF4DC18815BBB008A00A8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF4DB18815BBB008A00A8 /* RootViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C6BF4DF188183EF008A00A8 /* aGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF4DE188183EF008A00A8 /* aGame.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C6BF4E318818971008A00A8 /* dot-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4E018818971008A00A8 /* dot-red.png */; };
+		7C6BF4E418818971008A00A8 /* dot-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4E118818971008A00A8 /* dot-orange.png */; };
+		7C6BF4E718818A9C008A00A8 /* dot-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4E618818A9C008A00A8 /* dot-green.png */; };
+		7C6BF4EA1881BABB008A00A8 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF4E91881BABB008A00A8 /* InputViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C6BF4EE1883027C008A00A8 /* fond-p+h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6BF4ED1883027C008A00A8 /* fond-p+h.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C6BF4B618814513008A00A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6BF48E18814512008A00A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6BF49518814513008A00A8;
+			remoteInfo = MasterMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C6A178C188349BF00FE1ACA /* doc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doc.html; sourceTree = "<group>"; };
+		7C6A178D188349BF00FE1ACA /* docstyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = docstyle.css; sourceTree = "<group>"; };
+		7C6BF49618814513008A00A8 /* MasterMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6BF49918814513008A00A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C6BF49B18814513008A00A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C6BF49D18814513008A00A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C6BF4A118814513008A00A8 /* MasterMind-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterMind-Info.plist"; sourceTree = "<group>"; };
+		7C6BF4A318814513008A00A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C6BF4A518814513008A00A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C6BF4A718814513008A00A8 /* MasterMind-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MasterMind-Prefix.pch"; sourceTree = "<group>"; };
+		7C6BF4A818814513008A00A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C6BF4A918814513008A00A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C6BF4AB18814513008A00A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7C6BF4B118814513008A00A8 /* MasterMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6BF4B218814513008A00A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7C6BF4BA18814513008A00A8 /* MasterMindTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterMindTests-Info.plist"; sourceTree = "<group>"; };
+		7C6BF4BC18814513008A00A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C6BF4BE18814513008A00A8 /* MasterMindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterMindTests.m; sourceTree = "<group>"; };
+		7C6BF4CB188146E3008A00A8 /* MindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindViewController.h; sourceTree = "<group>"; };
+		7C6BF4CC188146E3008A00A8 /* MindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindViewController.m; sourceTree = "<group>"; };
+		7C6BF4D118814DF9008A00A8 /* icone-jouer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icone-jouer.png"; sourceTree = "<group>"; };
+		7C6BF4D51881523C008A00A8 /* icone-p+h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icone-p+h.png"; sourceTree = "<group>"; };
+		7C6BF4DA18815BBB008A00A8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7C6BF4DB18815BBB008A00A8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7C6BF4DD188183EF008A00A8 /* aGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aGame.h; sourceTree = "<group>"; };
+		7C6BF4DE188183EF008A00A8 /* aGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aGame.m; sourceTree = "<group>"; };
+		7C6BF4E018818971008A00A8 /* dot-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot-red.png"; sourceTree = "<group>"; };
+		7C6BF4E118818971008A00A8 /* dot-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot-orange.png"; sourceTree = "<group>"; };
+		7C6BF4E618818A9C008A00A8 /* dot-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot-green.png"; sourceTree = "<group>"; };
+		7C6BF4E81881BABB008A00A8 /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		7C6BF4E91881BABB008A00A8 /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		7C6BF4ED1883027C008A00A8 /* fond-p+h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-p+h.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C6BF49318814513008A00A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6BF49C18814513008A00A8 /* CoreGraphics.framework in Frameworks */,
+				7C6BF49E18814513008A00A8 /* UIKit.framework in Frameworks */,
+				7C6BF49A18814513008A00A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6BF4AE18814513008A00A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6BF4B318814513008A00A8 /* XCTest.framework in Frameworks */,
+				7C6BF4B518814513008A00A8 /* UIKit.framework in Frameworks */,
+				7C6BF4B418814513008A00A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C6BF48D18814512008A00A8 = {
+			isa = PBXGroup;
+			children = (
+				7C6BF49F18814513008A00A8 /* MasterMind */,
+				7C6BF4B818814513008A00A8 /* MasterMindTests */,
+				7C6BF49818814513008A00A8 /* Frameworks */,
+				7C6BF49718814513008A00A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C6BF49718814513008A00A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BF49618814513008A00A8 /* MasterMind.app */,
+				7C6BF4B118814513008A00A8 /* MasterMindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C6BF49818814513008A00A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BF49918814513008A00A8 /* Foundation.framework */,
+				7C6BF49B18814513008A00A8 /* CoreGraphics.framework */,
+				7C6BF49D18814513008A00A8 /* UIKit.framework */,
+				7C6BF4B218814513008A00A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C6BF49F18814513008A00A8 /* MasterMind */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BF4D118814DF9008A00A8 /* icone-jouer.png */,
+				7C6BF4ED1883027C008A00A8 /* fond-p+h.jpg */,
+				7C6BF4D51881523C008A00A8 /* icone-p+h.png */,
+				7C6BF4E018818971008A00A8 /* dot-red.png */,
+				7C6BF4E118818971008A00A8 /* dot-orange.png */,
+				7C6BF4E618818A9C008A00A8 /* dot-green.png */,
+				7C6A178C188349BF00FE1ACA /* doc.html */,
+				7C6A178D188349BF00FE1ACA /* docstyle.css */,
+				7C6BF4A818814513008A00A8 /* AppDelegate.h */,
+				7C6BF4A918814513008A00A8 /* AppDelegate.m */,
+				7C6BF4DA18815BBB008A00A8 /* RootViewController.h */,
+				7C6BF4DB18815BBB008A00A8 /* RootViewController.m */,
+				7C6BF4CB188146E3008A00A8 /* MindViewController.h */,
+				7C6BF4CC188146E3008A00A8 /* MindViewController.m */,
+				7C6BF4E81881BABB008A00A8 /* InputViewController.h */,
+				7C6BF4E91881BABB008A00A8 /* InputViewController.m */,
+				7C6BF4DD188183EF008A00A8 /* aGame.h */,
+				7C6BF4DE188183EF008A00A8 /* aGame.m */,
+				7C6BF4AB18814513008A00A8 /* Images.xcassets */,
+				7C6BF4A018814513008A00A8 /* Supporting Files */,
+			);
+			path = MasterMind;
+			sourceTree = "<group>";
+		};
+		7C6BF4A018814513008A00A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BF4A118814513008A00A8 /* MasterMind-Info.plist */,
+				7C6BF4A218814513008A00A8 /* InfoPlist.strings */,
+				7C6BF4A518814513008A00A8 /* main.m */,
+				7C6BF4A718814513008A00A8 /* MasterMind-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C6BF4B818814513008A00A8 /* MasterMindTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BF4BE18814513008A00A8 /* MasterMindTests.m */,
+				7C6BF4B918814513008A00A8 /* Supporting Files */,
+			);
+			path = MasterMindTests;
+			sourceTree = "<group>";
+		};
+		7C6BF4B918814513008A00A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BF4BA18814513008A00A8 /* MasterMindTests-Info.plist */,
+				7C6BF4BB18814513008A00A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C6BF49518814513008A00A8 /* MasterMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6BF4C218814513008A00A8 /* Build configuration list for PBXNativeTarget "MasterMind" */;
+			buildPhases = (
+				7C6BF49218814513008A00A8 /* Sources */,
+				7C6BF49318814513008A00A8 /* Frameworks */,
+				7C6BF49418814513008A00A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterMind;
+			productName = MasterMind;
+			productReference = 7C6BF49618814513008A00A8 /* MasterMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C6BF4B018814513008A00A8 /* MasterMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6BF4C518814513008A00A8 /* Build configuration list for PBXNativeTarget "MasterMindTests" */;
+			buildPhases = (
+				7C6BF4AD18814513008A00A8 /* Sources */,
+				7C6BF4AE18814513008A00A8 /* Frameworks */,
+				7C6BF4AF18814513008A00A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6BF4B718814513008A00A8 /* PBXTargetDependency */,
+			);
+			name = MasterMindTests;
+			productName = MasterMindTests;
+			productReference = 7C6BF4B118814513008A00A8 /* MasterMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C6BF48E18814512008A00A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fabrice Kordon";
+				TargetAttributes = {
+					7C6BF49518814513008A00A8 = {
+						DevelopmentTeam = L99GSY552M;
+					};
+					7C6BF4B018814513008A00A8 = {
+						TestTargetID = 7C6BF49518814513008A00A8;
+					};
+				};
+			};
+			buildConfigurationList = 7C6BF49118814513008A00A8 /* Build configuration list for PBXProject "MasterMind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C6BF48D18814512008A00A8;
+			productRefGroup = 7C6BF49718814513008A00A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C6BF49518814513008A00A8 /* MasterMind */,
+				7C6BF4B018814513008A00A8 /* MasterMindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C6BF49418814513008A00A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6A178F188349BF00FE1ACA /* docstyle.css in Resources */,
+				7C6BF4E318818971008A00A8 /* dot-red.png in Resources */,
+				7C6BF4A418814513008A00A8 /* InfoPlist.strings in Resources */,
+				7C6BF4EE1883027C008A00A8 /* fond-p+h.jpg in Resources */,
+				7C6BF4AC18814513008A00A8 /* Images.xcassets in Resources */,
+				7C6BF4E718818A9C008A00A8 /* dot-green.png in Resources */,
+				7C6A178E188349BF00FE1ACA /* doc.html in Resources */,
+				7C6BF4D61881523C008A00A8 /* icone-p+h.png in Resources */,
+				7C6BF4D218814DF9008A00A8 /* icone-jouer.png in Resources */,
+				7C6BF4E418818971008A00A8 /* dot-orange.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6BF4AF18814513008A00A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6BF4BD18814513008A00A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C6BF49218814513008A00A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6BF4AA18814513008A00A8 /* AppDelegate.m in Sources */,
+				7C6BF4EA1881BABB008A00A8 /* InputViewController.m in Sources */,
+				7C6BF4DF188183EF008A00A8 /* aGame.m in Sources */,
+				7C6BF4A618814513008A00A8 /* main.m in Sources */,
+				7C6BF4CD188146E3008A00A8 /* MindViewController.m in Sources */,
+				7C6BF4DC18815BBB008A00A8 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6BF4AD18814513008A00A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6BF4BF18814513008A00A8 /* MasterMindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C6BF4B718814513008A00A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6BF49518814513008A00A8 /* MasterMind */;
+			targetProxy = 7C6BF4B618814513008A00A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C6BF4A218814513008A00A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6BF4A318814513008A00A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C6BF4BB18814513008A00A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6BF4BC18814513008A00A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C6BF4C018814513008A00A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C6BF4C118814513008A00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C6BF4C318814513008A00A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fabrice Kordon (93S7PKVW77)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterMind/MasterMind-Prefix.pch";
+				INFOPLIST_FILE = "MasterMind/MasterMind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C6BF4C418814513008A00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fabrice Kordon (93S7PKVW77)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterMind/MasterMind-Prefix.pch";
+				INFOPLIST_FILE = "MasterMind/MasterMind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7C6BF4C618814513008A00A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MasterMind.app/MasterMind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterMind/MasterMind-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MasterMindTests/MasterMindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7C6BF4C718814513008A00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MasterMind.app/MasterMind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterMind/MasterMind-Prefix.pch";
+				INFOPLIST_FILE = "MasterMindTests/MasterMindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C6BF49118814513008A00A8 /* Build configuration list for PBXProject "MasterMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6BF4C018814513008A00A8 /* Debug */,
+				7C6BF4C118814513008A00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6BF4C218814513008A00A8 /* Build configuration list for PBXNativeTarget "MasterMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6BF4C318814513008A00A8 /* Debug */,
+				7C6BF4C418814513008A00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6BF4C518814513008A00A8 /* Build configuration list for PBXNativeTarget "MasterMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6BF4C618814513008A00A8 /* Debug */,
+				7C6BF4C718814513008A00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C6BF48E18814512008A00A8 /* Project object */;
+}
